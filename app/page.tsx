@@ -385,6 +385,26 @@ export default function Home() {
                   テクノロジーの力で地域のポイ捨て問題を解決し、みんなで作るキレイな街を実現します。
                 </p>
               </div>
+              <div>
+                <div className="flex items-center space-x-3 mb-4">
+                  <h4 className="text-xl font-bold">Sweep リポジトリ</h4>
+                </div>
+                <p className="text-gray-400 leading-relaxed">
+                  <a href="https://github.com/Chika0221/Sweep" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">
+                  リポジトリを見る
+                  </a>
+                </p>
+              </div>
+              <div>
+                <div className="flex items-center space-x-3 mb-4">
+                  <h4 className="text-xl font-bold">Sweep-host リポジトリ</h4>
+                </div>
+                <p className="text-gray-400 leading-relaxed">
+                  <a href="https://github.com/Chika0221/Sweep-host" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 underline">
+                  リポジトリを見る
+                  </a>
+                </p>
+              </div>
               
               
             </div>
