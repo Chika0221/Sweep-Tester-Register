@@ -71,7 +71,7 @@ export default function Home() {
           あなたもSweeperになってきれいなスマートシティーに！
         </p>
         <p className="text-md text-gray-500 mb-8">
-          テスト期間: 約2週間（6/21まで）
+          テスト期間: 約2週間（6/24まで）
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
