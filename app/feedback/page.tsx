@@ -5,42 +5,8 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { Badge } from "@/components/ui/badge";
 
 // ダミーデータ（実際のアプリケーションではAPIから取得）
-const dummyFeedbackResponses = [
-  {
-    id: "1",
-    type: "bug",
-    details: "ログイン画面でパスワードを入力しても反応がない。",
-    submittedAt: "2024-06-09T10:30:00Z",
-    status: "open",
-  },
-  {
-    id: "2",
-    type: "feature_request",
-    details: "ダークモード機能がほしいです。",
-    submittedAt: "2024-06-08T15:45:00Z",
-    status: "under_consideration",
-  },
-  {
-    id: "3",
-    type: "improvement",
-    details: "設定画面のUIが少し分かりにくいので改善してほしい。",
-    submittedAt: "2024-06-08T09:12:00Z",
-    status: "planned",
-  },
-  {
-    id: "4",
-    type: "other",
-    details: "全体的に素晴らしいアプリだと思います！応援しています。",
-    submittedAt: "2024-06-07T18:00:00Z",
-    status: "closed",
-  },
-  {
-    id: "5",
-    type: "bug",
-    details: "特定の操作をするとアプリがクラッシュします。再現手順は別途メールで送ります。",
-    submittedAt: "2024-06-09T14:20:00Z",
-    status: "open",
-  },
+const dummyFeedbackResponses: any[] = [
+  
 ];
 
 const getFeedbackTypeDisplay = (type: string) => {
