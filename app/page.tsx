@@ -8,13 +8,13 @@ import { Badge } from '@/components/ui/badge';
 
 import sweepIcon from 'assets/icon/icon_android_foreground.png'
 import Image from 'next/image';
+import Link from 'next/link';
 import { 
   Smartphone, 
   MapPin, 
   Heart, 
   Award, 
   Users, 
-  CheckCircle,
   Trash2,
   ListTodo,
   ExternalLink
@@ -25,7 +25,7 @@ export default function Home() {
 
   const handleApply = () => {
     setIsApplied(true);
-    window.location.href = 'https://forms.gle/your-form-id';
+    window.location.href = 'https://forms.gle/6t1LvdqPnZGaNgjg8';
   };
 
   return (
@@ -46,6 +46,7 @@ export default function Home() {
               <a href="#features" className="text-gray-600 hover:text-blue-600 transition-colors">機能</a>
               <a href="#apply" className="text-gray-600 hover:text-blue-600 transition-colors">申込み</a>
               <a href="#faq" className="text-gray-600 hover:text-blue-600 transition-colors">FAQ</a>
+              <Link href="/feedback" className="text-gray-600 hover:text-blue-600 transition-colors">フィードバック</Link>
             </nav>
           </div>
         </div>
