@@ -14,13 +14,9 @@ import {
   Heart, 
   Award, 
   Users, 
-  Recycle, 
   CheckCircle,
-  Mail,
-  Phone,
-  Instagram,
-  Twitter,
-  Facebook,
+  Trash2,
+  ListTodo,
   ExternalLink
 } from 'lucide-react';
 
@@ -187,7 +183,7 @@ export default function Home() {
               <Card className="group hover:shadow-xl transition-all duration-300 border-0 bg-gradient-to-br from-white to-emerald-50">
                 <CardHeader>
                   <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                    <CheckCircle className="w-6 h-6 text-white" />
+                    <Trash2 className="w-6 h-6 text-white" />
                   </div>
                   <CardTitle className="text-emerald-800">スマートゴミ箱連携</CardTitle>
                 </CardHeader>
@@ -262,27 +258,23 @@ export default function Home() {
                   </p>
                 </div>
 
-                {/* <div className="bg-blue-50 p-6 rounded-lg">
-                  <h5 className="font-semibold text-blue-800 mb-3">テスター特典</h5>
+                <div className="bg-blue-50 p-6 rounded-lg">
+                  <h5 className="font-semibold text-blue-800 mb-3">テスターのタスク</h5>
                   <ul className="text-sm text-blue-700 space-y-2">
                     <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2" />
-                      アプリの無料利用（正式版リリース後も継続）
+                      <ListTodo className="w-4 h-4 mr-2" />
+                      ゴミを見つけて投稿
                     </li>
                     <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2" />
-                      限定テスターバッジの付与
+                      <ListTodo className="w-4 h-4 mr-2" />
+                      アプリのバグを見つける
                     </li>
                     <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2" />
-                      開発チームとの直接フィードバック機会
-                    </li>
-                    <li className="flex items-center">
-                      <CheckCircle className="w-4 h-4 mr-2" />
-                      テスター限定イベントへの招待
+                      <ListTodo className="w-4 h-4 mr-2" />
+                      アプリ内からフィードバックを送信
                     </li>
                   </ul>
-                </div> */}
+                </div>
 
                 <Button
                   onClick={handleApply}
