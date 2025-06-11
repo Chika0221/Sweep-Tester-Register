@@ -70,8 +70,11 @@ export default function Home() {
           スマートフォンアプリとスマートゴミ箱で、大津市のポイ捨て問題を解決。
           あなたもSweeperになってきれいなスマートシティーに！
         </p>
-        <p className="text-md text-gray-500 mb-8">
+        <p className="text-md text-gray-500 mb-2">
           テスト期間: 約2週間（6/24まで）
+        </p>
+        <p className="text-md text-red-500 font-semibold mb-8">
+          ※現在Android版のみ提供。iOS版は準備中です。
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button 
