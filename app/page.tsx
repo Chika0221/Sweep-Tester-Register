@@ -7,6 +7,10 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { Badge } from '@/components/ui/badge';
 
 import sweepIcon from 'assets/icon/icon_android_foreground.png'
+import screenShot1 from 'assets/screenshot/shot1.png';
+import screenShot2 from 'assets/screenshot/shot2.png';
+import screenShot3 from 'assets/screenshot/shot3.png';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { 
@@ -197,6 +201,47 @@ export default function Home() {
                   </p>
                 </CardContent>
               </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* App Screenshots Section */}
+      <section id="screenshots" className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto text-center">
+            <h3 className="text-3xl lg:text-4xl font-bold mb-12 text-gray-800">
+              アプリのスクリーンショット
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+              {/* Replace with your actual screenshot images and alt text */}
+              <div className="bg-gray-100 rounded-lg shadow-lg overflow-hidden aspect-[214/463]">
+                <Image 
+                  src={screenShot1}
+                  alt="アプリスクリーンショット1" 
+                  width={1284} 
+                  height={2778} 
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <div className="bg-gray-100 rounded-lg shadow-lg overflow-hidden aspect-[214/463]">
+                <Image 
+                  src={screenShot2}
+                  alt="アプリスクリーンショット2" 
+                  width={1284} 
+                  height={2778} 
+                  className="object-cover w-full h-full"
+                />
+              </div>
+              <div className="bg-gray-100 rounded-lg shadow-lg overflow-hidden aspect-[214/463]">
+                <Image 
+                  src={screenShot3}
+                  alt="アプリスクリーンショット3" 
+                  width={1284} 
+                  height={2778} 
+                  className="object-cover w-full h-full"
+                />
+              </div>
             </div>
           </div>
         </div>
